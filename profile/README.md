@@ -1,92 +1,47 @@
-# 📊 SmartLead Banking System
+# SPRI-S
 
-### Predictive Lead Scoring & Sales Prioritization for Term Deposit Campaign
-
----
-
-## 🏦 Deskripsi Sistem
-
-**SmartLead Banking System** adalah sistem pendukung keputusan berbasis _Machine Learning_ yang dirancang untuk meningkatkan efektivitas kampanye pemasaran **deposito berjangka (term deposit)** di sektor perbankan.
-
-Sistem ini memanfaatkan data historis nasabah untuk memprediksi **probabilitas ketertarikan nasabah** terhadap produk deposito berjangka. Hasil prediksi tersebut digunakan untuk:
-
-- memprioritaskan daftar nasabah yang akan dihubungi (call list),
-- membantu tim sales fokus pada prospek dengan potensi konversi tertinggi,
-- mengurangi inefisiensi waktu dan biaya operasional akibat penargetan yang tidak tepat.
-
-Sistem dikembangkan sebagai **Minimum Viable Product (MVP)** yang mengintegrasikan model Machine Learning dengan antarmuka web interaktif sebagai alat bantu pengambilan keputusan bagi tim sales.
+### Sales Predictive Ranking Intelligence 
 
 ---
 
-## ⚙️ Fitur Utama
-
-- 📈 Prediksi probabilitas nasabah berlangganan deposito berjangka
-- 🧮 Model Machine Learning (LightGBM)
-- 📋 Prioritized call list berbasis skor probabilitas
-- 👤 Informasi kunci nasabah (usia, pekerjaan, status pinjaman, dll.)
-- 🖥️ Dashboard/portal interaktif untuk tim sales
-- 🎯 Optimasi threshold precision–recall untuk data imbalance
+SPRI-S merupakan sistem pendukung keputusan berbasis Machine Learning yang dirancang untuk meningkatkan efektivitas kampanye pemasaran perbankan, khususnya produk deposito berjangka. Sistem ini memanfaatkan data historis nasabah untuk memprediksi probabilitas ketertarikan nasabah terhadap produk yang ditawarkan, sehingga tim sales dapat memprioritaskan prospek dengan potensi konversi tertinggi. Melalui penyajian skor probabilitas dan informasi kunci nasabah dalam sebuah portal interaktif, sistem ini membantu pengambilan keputusan yang lebih terarah, mengurangi inefisiensi penargetan, serta meningkatkan efisiensi dan tingkat konversi kampanye pemasaran.
 
 ---
 
-## 🧠 Dataset
+## Dataset
 
 - **Bank Marketing Dataset (UCI Machine Learning Repository)**
-- Sumber: Kampanye pemasaran bank di Eropa
+- Sumber: Kampanye pemasaran bank di Eropa (https://archive.ics.uci.edu/dataset/222/bank+marketing or https://doi.org/10.24432/C5K306)
 - Target: _Subscription of term deposit (yes/no)_
 
 ---
 
-## 👥 Contributors
+## Team Members
 
-| Nama                           | Peran                                      | ID Cohort   |
-| ------------------------------ | ------------------------------------------ | ----------- |
-| Komang Krisna Jaya Nova Antara | Machine Learning Engineer / Data Scientist | COHORT-XXXX |
-| _(Nama anggota lain)_          | Backend Developer                          | COHORT-XXXX |
-| _(Nama anggota lain)_          | Frontend Developer / UI Designer           | COHORT-XXXX |
-
-> _Catatan: Silakan sesuaikan nama, peran, dan ID cohort sesuai tim._
-
----
-
-## 🖼️ Screenshot / Mockup Sistem
-
-### 🔹 Halaman Dashboard
-
-![Dashboard](docs/screenshots/dashboard.png)
-
-### 🔹 Halaman Prediksi & Prioritas Nasabah
-
-![Prediction Page](docs/screenshots/prediction.png)
-
-### 🔹 Detail Informasi Nasabah
-
-![Customer Detail](docs/screenshots/customer_detail.png)
-
-> _Screenshot dapat berupa mockup desain atau tampilan sistem hasil implementasi._
+| Nama                               | Learning Path                              | ID Cohort   | Instansi            |
+| ---------------------------------- | ------------------------------------------ | ----------- | ------------------- |
+| I Nyoman Suryadana                 | React & Backend with AI                    | R014D5Y0805 | Universitas Udayana |
+| Anak Agung Gede Angga Putra Wibawa | React & Backend with AI                    | R014D5Y0197 | Universitas Udayana |
+| I Gede Parama Sathiyam Yuda Yana   | React & Backend with AI                    | R014D5Y0772 | Universitas Udayana |
+| Komang Krisna Jaya Nova Antara     | Machine Learning                           | M014D5Y0982 | Universitas Udayana |
+| Yeremi Kornelius Purba             | Machine Learning                           | M014D5Y1975 | Universitas Udayana |
 
 ---
 
-## 🚀 Teknologi yang Digunakan
-
-- **Python**
-- **Scikit-learn**
-- **LightGBM**
-- **Pandas & NumPy**
-- **Matplotlib / Seaborn**
-- **Web Framework** (Flask / FastAPI / lainnya)
-- **HTML / CSS / JavaScript**
+##  Mockup System
 
 ---
 
-## 🎯 Tujuan Pengembangan
+## Tech Stack
 
-- Mengatasi inefisiensi penargetan nasabah dalam kampanye outbound call
-- Mendukung pengambilan keputusan tim sales berbasis data
-- Meningkatkan tingkat konversi dan efisiensi operasional pemasaran perbankan
+- Website
+  - **Web Framework** (Flask / FastAPI / lainnya)
+  - **HTML / CSS / JavaScript**
+
+- Machine Learning
+  - **Scikit-learn**
+  - **LightGBM**
+  - **Pandas & NumPy**
+  - **Matplotlib & Seaborn**
 
 ---
-
-## 📌 Catatan
-
-Proyek ini dikembangkan sebagai bagian dari **proyek akademik / capstone / studi independen**, dan merepresentasikan implementasi **MVP sistem predictive lead scoring** yang telah banyak diterapkan secara nyata di industri perbankan modern.
