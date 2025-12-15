@@ -35,9 +35,14 @@ SPRI-S merupakan sistem pendukung keputusan berbasis Machine Learning yang diran
 ## Tech Stack
 
 - Website
-  - **Web Framework** (Flask / FastAPI / lainnya)
-  - **HTML / CSS / JavaScript**
+  - **HTML**
+  - **TAILWIND CSS**
+  - **REACT JS**
+  - **HAPI JS**
+  - **POSTGRESQL**
+  - **REST API**
 
+  
 - Machine Learning
   - **Scikit-learn**
   - **LightGBM**
