@@ -51,3 +51,6 @@ SPRI-S merupakan sistem pendukung keputusan berbasis Machine Learning yang diran
   - **Seaborn**
 
 ---
+
+## Website Preview
+http://202.10.34.30
