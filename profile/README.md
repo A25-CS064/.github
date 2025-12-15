@@ -31,7 +31,7 @@ SPRI-S merupakan sistem pendukung keputusan berbasis Machine Learning yang diran
 ## Product Preview
 <p align="center">
   <img 
-    src="https://raw.githubusercontent.com/A25-CS064/assets/main/product-image.png"
+    src="https://github.com/A25-CS064/assets/main/product-image.png"
     alt="SPRI-S Dashboard Mockup"
     width="900"
   />
