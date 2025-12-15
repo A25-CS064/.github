@@ -40,9 +40,14 @@ SPRI-S merupakan sistem pendukung keputusan berbasis Machine Learning yang diran
 
   
 - Machine Learning
+  - **Python**
+  - **Pandas**
+  - **NumPy**
+  - **SciPy**
   - **Scikit-learn**
   - **LightGBM**
-  - **Pandas & NumPy**
-  - **Matplotlib & Seaborn**
+  - **XGBoost**
+  - **Matplotlib**
+  - **Seaborn**
 
 ---
