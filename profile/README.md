@@ -28,10 +28,6 @@ SPRI-S merupakan sistem pendukung keputusan berbasis Machine Learning yang diran
 
 ---
 
-##  Mockup System
-
----
-
 ## Tech Stack
 
 - Website
